@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sahara Run | Campus Arcade</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Campus Arcade</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="runner.html" aria-current="page">Sahara Run</a>
+        <a href="safari.html">Wild Hunt</a>
+        <a href="napoleon.html">Cannon Dash</a>
+      </nav>
+    </header>
+
+    <main class="game-page">
+      <section class="game-shell">
+        <div class="game-topline">
+          <div>
+            <p class="eyebrow">Endless runner</p>
+            <h1>Sahara Run</h1>
+          </div>
+          <div class="game-actions">
+            <a class="quiet-link" href="index.html">Back to games</a>
+            <a class="quiet-link shop-link" href="runner-shop.html">Sahara shop</a>
+          </div>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="runnerGame" width="960" height="540" aria-label="Sahara Run game canvas"></canvas>
+        </div>
+        <div class="controls-row">
+          <div class="instructions-panel">
+            <button class="instructions-button" type="button" aria-expanded="false">Instructions</button>
+            <ul class="instructions-list" hidden>
+              <li>Use A/D or Left/Right to change lanes.</li>
+              <li>Press W or Up to jump.</li>
+              <li>Press S or Down to slide.</li>
+              <li>Press Space to restart after a crash.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="game.js?v=2"></script>
+  </body>
+</html>

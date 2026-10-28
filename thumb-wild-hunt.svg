@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><linearGradient id="sky" y2="1"><stop stop-color="#bfd7ea"/><stop offset="1" stop-color="#d9e4d0"/></linearGradient></defs>
+  <rect width="960" height="540" fill="url(#sky)"/><path d="M0 270 180 125 330 270 520 105 720 270 860 145 960 270V540H0Z" fill="#6b8e4e"/><rect y="270" width="960" height="270" fill="#536e3e"/>
+  <g fill="#2f6040"><path d="M95 205h18v170H95zM38 230l66-105 74 98-56 18z"/><path d="M820 205h18v170h-18zM762 230l66-105 75 98-56 18z"/></g>
+  <g transform="translate(480 390)" fill="#765037" stroke="#49372b" stroke-width="6"><ellipse cx="-18" cy="-45" rx="76" ry="34"/><path d="M36-58 58-132 84-146 99-60Z"/><circle cx="95" cy="-151" r="22"/><path d="M53-165 40-195M71-177 56-204M101-168 119-192M111-157l26-4" fill="none"/><path d="M-65-25-82 72M-36-20-43 68M18-20 6 72M45-22 57 65" fill="none"/></g>
+  <circle cx="480" cy="274" r="32" fill="none" stroke="#17212b" stroke-width="4"/><path d="M430 274h100M480 224v100" stroke="#17212b" stroke-width="3"/><text x="28" y="48" fill="#17212b" font-family="Arial" font-size="24" font-weight="700">FOREST MAP   12 trophies</text>
+</svg>

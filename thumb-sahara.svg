@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><linearGradient id="sky" y2="1"><stop stop-color="#5d9fca"/><stop offset="1" stop-color="#f6d18a"/></linearGradient><linearGradient id="sand" y2="1"><stop stop-color="#d8aa57"/><stop offset="1" stop-color="#9d6b39"/></linearGradient></defs>
+  <rect width="960" height="540" fill="url(#sky)"/><circle cx="780" cy="92" r="40" fill="#f5c15d"/>
+  <path d="M0 270 220 210 390 270 570 200 960 270V540H0Z" fill="#78984d"/><path d="M0 292H960V540H0Z" fill="url(#sand)"/>
+  <path d="M330 540 450 292H510L630 540Z" fill="#bd8848"/><path d="M420 540 475 292H485L540 540Z" fill="#e8b45c"/>
+  <g fill="#5a3926"><path d="M110 300h16v110h-16zM62 320l56-54 74 48-58 18z"/><path d="M800 300h16v110h-16zM750 320l58-54 76 50-55 16z"/></g>
+  <g transform="translate(470 390)"><path d="M-25-95h50l12 70h-74z" fill="#17212b"/><path d="M-19-78h38v12h-38z" fill="#c74343"/><rect x="-18" y="-25" width="12" height="34" fill="#1f2530"/><rect x="8" y="-25" width="12" height="34" fill="#1f2530"/><path d="m-35-96 37-25 38 25-25 12h-42z" fill="#17212b"/><rect x="-21" y="-66" width="43" height="8" fill="#c74343"/></g>
+  <text x="28" y="48" fill="#17212b" font-family="Arial" font-size="24" font-weight="700">124 m   6 pelts</text>
+</svg>

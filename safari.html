@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wild Hunt | Campus Arcade</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Campus Arcade</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="runner.html">Sahara Run</a>
+        <a href="safari.html" aria-current="page">Wild Hunt</a>
+        <a href="napoleon.html">Cannon Dash</a>
+      </nav>
+    </header>
+
+    <main class="game-page">
+      <section class="game-shell">
+        <div class="game-topline">
+          <div>
+            <p class="eyebrow">First-person target hunt</p>
+            <h1>Wild Hunt</h1>
+          </div>
+          <div class="game-actions">
+            <a class="quiet-link" href="index.html">Back to games</a>
+            <a class="quiet-link shop-link" href="safari-shop.html">Wild Hunt shop</a>
+          </div>
+        </div>
+        <div class="map-picker" aria-label="Map selection">
+          <button class="map-button active" data-map="forest">Forest</button>
+          <button class="map-button locked" data-map="siberia">Siberia</button>
+          <button class="map-button locked" data-map="savannah">Savannah</button>
+          <button class="map-button locked" data-map="tundra">Tundra</button>
+          <button class="map-button locked" data-map="wetlands">Wetlands</button>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="safariGame" width="960" height="540" aria-label="Wild Hunt game canvas"></canvas>
+        </div>
+        <div class="controls-row">
+          <div class="instructions-panel">
+            <button class="instructions-button" type="button" aria-expanded="false">Instructions</button>
+            <ul class="instructions-list" hidden>
+              <li>Move the mouse or trackpad to aim.</li>
+              <li>Click an animal to take a shot.</li>
+              <li>Earn 1 point for every 5 animals tagged.</li>
+              <li>Spend points in the shop to unlock more maps.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="game.js?v=2"></script>
+  </body>
+</html>

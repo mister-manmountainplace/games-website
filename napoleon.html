@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cannon Dash | Campus Arcade</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Campus Arcade</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="runner.html">Sahara Run</a>
+        <a href="safari.html">Wild Hunt</a>
+        <a href="napoleon.html" aria-current="page">Cannon Dash</a>
+      </nav>
+    </header>
+
+    <main class="game-page">
+      <section class="game-shell">
+        <div class="game-topline">
+          <div>
+            <p class="eyebrow">Classic side runner</p>
+            <h1>Cannon Dash</h1>
+          </div>
+          <div class="game-actions">
+            <a class="quiet-link" href="index.html">Back to games</a>
+            <a class="quiet-link shop-link" href="napoleon-shop.html">Cannon shop</a>
+          </div>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="napoleonGame" width="960" height="540" aria-label="Cannon Dash game canvas"></canvas>
+        </div>
+        <div class="controls-row">
+          <div class="instructions-panel">
+            <button class="instructions-button" type="button" aria-expanded="false">Instructions</button>
+            <ul class="instructions-list" hidden>
+              <li>Press W, Up, or Space to jump.</li>
+              <li>Double tap jump for a higher hop.</li>
+              <li>Keep moving as cannonballs speed up over time.</li>
+              <li>Press Space to restart after a crash.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="game.js?v=2"></script>
+  </body>
+</html>
